@@ -54,7 +54,16 @@
 # print(s)
 # file.close()
 
-file=open("data.txt" ,"r")
-v=file.read()
-print(v)
-file.close()
+# file=open("data.txt" ,"w")
+# v=file.write()
+# print(v)
+# file.close()
+
+# file=open("data.txt" ,"a")
+# v=file.append()
+# print(v)
+# file.close()
+import os 
+os.remove("data.txt")
+
+
